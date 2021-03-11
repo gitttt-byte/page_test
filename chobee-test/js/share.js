@@ -1,6 +1,6 @@
 const url = 'https://dev-dain.github.io/10-things-test';
-const title = '[이미지테스트] 나를 알아보는 10가지 질문 ';
-const hash = '%2310_things_test %233분이미지테스트 %23이미지테스트 ';
+const title = '춉춉이 테스트 ';
+const hash = '%23쵸비_test %233분이미지테스트 %23이미지테스트 ';
 
 const fb = () => {
   window.open('https://www.facebook.com/sharer/sharer.php?u='
@@ -11,8 +11,8 @@ const fb = () => {
 const tw = () => {
   let name = document.querySelector('.result').innerHTML;
   switch (name) {
-    case '표범':
-    case '유니콘':
+    case '쵸비덕후':
+    case '':
       name += '이에요! ';
       break;
     default:
