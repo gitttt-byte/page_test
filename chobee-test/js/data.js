@@ -73,10 +73,10 @@ const qnaList = [
   {
     q: '9. 쵸비의 mbti는?',
     a: [
-      { answer: 'a. ENTJ', score: 0 },
-      { answer: 'b. ENFJ', score: 0 },
-      { answer: 'c. ENFP', score: 1 },
-      { answer: 'd. ENTP', score: 0 }
+      { answer: 'a. INTJ', score: 0 },
+      { answer: 'b. INFJ', score: 0 },
+      { answer: 'c. INFP', score: 1 },
+      { answer: 'd. INTP', score: 0 }
     ]
   },
   {
@@ -94,36 +94,36 @@ const qnaList = [
 
 const infoList = [
   {
-    from: 0,
-    to: 3,
+    from: 10,
+    to: 7,
     mLeft: '10%',
     name: '쵸비 유튜브 구독 하세요',
-    desc: '쵸비 퀴즈를 거의 틀리시다니! 얼른 귀여운 쵸비 유튜브 구독하세요'
+    desc: '쵸비 퀴즈를 거의 틀리다니! 쵸비 유튜브 구독&좋아요&'
   },
   {
-    from: 4,
-    to: 5,
+    from:7,
+    to: 6,
     mLeft: '25%',
     name: '쵸비 입덕 시작',
     desc: ''
   },
  {
     from: 5,
-    to: 7,
+    to: 3,
     mLeft: '55%',
     name: '쵸비 구독자',
     desc: ''
   },
   {
-    from: 8,
-    to: 9,
+    from: 2,
+    to: 1,
     mLeft: '70%',
     name: '쵸비 덕후',
     desc: ''
   },
   {
-    from: 10,
-    to: 10,
+    from: 0,
+    to: 0,
     mLeft: '100%',
     name: '쵸비 친구',
     desc: ''
