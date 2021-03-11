@@ -53,18 +53,16 @@ const calcScore = () => {
 
 const sortResult = (point) => {
   let num = 0;
-  if (point <= 20) {
+  if (point <= 3) {
     num = 0;
-  } else if (point <= 30) {
+  } else if (point <= 5) {
     num = 1;
-  } else if (point <= 40) {
+  } else if (point <= 7) {
     num = 2;
-  } else if (point <= 50) {
+  } else if (point <= 9) {
     num = 3;
-  } else if (point <= 60) {
+  } else if (point <= 10) {
     num = 4;
-  } else {
-    num = 5;
   }
   return num;
 }
