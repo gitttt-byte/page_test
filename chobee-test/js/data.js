@@ -76,7 +76,7 @@ const qnaList = [
       { answer: 'a. ENTJ', score: 0 },
       { answer: 'b. ENFJ', score: 0 },
       { answer: 'c. ENFP', score: 1 },
-      { answer: 'd. ENTP, score: 0 }
+      { answer: 'd. ENTP', score: 0 }
     ]
   },
   {
